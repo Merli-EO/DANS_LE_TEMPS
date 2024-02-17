@@ -1,0 +1,50 @@
+.core-bg {
+    margin: 0;
+    padding: 0;
+    background-image: url('/Users/merliemmanuelendamneobiang/Desktop/Projects2023/webDev/Projects/Dans_Le_Temps/FRONTEND/src/assets/images/Dans_le_temps_2.png');
+    background-size: cover;
+    background-position: center;
+    height: 60vh; /* Set the height to cover the viewport height */
+    width: 100%; /* Set the height to cover the viewport width */
+
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 0px;
+  }
+  
+  .grid-item {
+    width: 120%;
+  }
+  
+  .grid-item img {
+    width: 80%;
+    height: 80%;
+  }
+  .carousel {
+    position: relative;
+  }
+  
+  .carousel .prev,
+  .carousel .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10;
+    width: 100%; /* Ajustez la largeur des flèches en fonction de vos besoins */
+  }
+  
+  .carousel .prev {
+    left: 0;
+  }
+  
+  .carousel .next {
+    right: 0;
+  }
+  

@@ -1,0 +1,7 @@
+.sticky-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #121212; /* Example background color */
+    z-index: 1000; /* Set a high z-index to ensure the header appears above other content */
+  }
