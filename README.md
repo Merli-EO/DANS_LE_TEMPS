@@ -1,5 +1,5 @@
 # DANS_LE_TEMPS
 This is Dans Le Temps repository
 
-I've successfully change and load my repository
-Continuing to test 
+I've successfully changed and loaded my repository
+Continuing with testing 
